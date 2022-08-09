@@ -6,3 +6,4 @@ type Foo = {
 };
 
 const obj: Required<Foo> = { name: "sae", age: 25 };
+console.log(obj);
